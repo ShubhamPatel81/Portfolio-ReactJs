@@ -18,10 +18,10 @@ const About = () => {
           </h1>
           {/* Name */}
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
-            Shubham Patel
+            <span className="text-green-600">Shubham Patel</span>
           </h2>
           {/* Skills Heading with Typing Effect */}
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#40c0e3] leading-tight">
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
