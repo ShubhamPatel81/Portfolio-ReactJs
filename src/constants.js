@@ -16,15 +16,13 @@ import pythonLogo from './assets/tech_logo/python.png';
 import gitLogo from './assets/tech_logo/git.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
-import mcLogo from './assets/tech_logo/mongodb.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import redislogo from './assets/tech_logo/redislogo.png';
-import IntelliJ from './assets/tech_logo/intellije.png';
-import Eclipse from './assets/tech_logo/eclipse.png';
 import cloudLogo from './assets/tech_logo/cloud.png';
 import awsLogo from './assets/tech_logo/aws.png';
 import computerNetworksLogo from './assets/tech_logo/network.png';
 import linuxLogo from './assets/tech_logo/linux.png';
+import hibernateLogo from './assets/tech_logo/hibernate.png';
 
 // Achivements Section Logo's
 import prize from './assets/achivement/prize_first.png';
@@ -61,7 +59,7 @@ export const SkillsInfo = [
   {
     title: 'Backend',
     skills: [
-      { name: 'Springboot', logo: springbootLogo },
+      { name: 'Springboot, Microservices', logo: springbootLogo },
       { name: 'NodeJS', logo: nodejsLogo },
       { name: 'ExpressJS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
@@ -84,11 +82,8 @@ export const SkillsInfo = [
     skills: [
       { name: 'Git/GitHub', logo: gitLogo },
       { name: 'Linux', logo: linuxLogo },
-      { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
-      { name: 'IntelliJ', logo: IntelliJ },
-      { name: 'Eclipse ', logo: Eclipse },
+      { name: 'Hibernate', logo: hibernateLogo },
+      { name: 'Postman', logo: postmanLogo }
     ],
   },
   {
