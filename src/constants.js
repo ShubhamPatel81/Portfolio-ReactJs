@@ -14,14 +14,17 @@ import mongodbLogo from './assets/tech_logo/mongodb.png';
 import javaLogo from './assets/tech_logo/java.png';
 import pythonLogo from './assets/tech_logo/python.png';
 import gitLogo from './assets/tech_logo/git.png';
-import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
-import mcLogo from './assets/tech_logo/mc.png';
+import mcLogo from './assets/tech_logo/mongodb.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import redislogo from './assets/tech_logo/redislogo.png';
 import IntelliJ from './assets/tech_logo/intellije.png';
 import Eclipse from './assets/tech_logo/eclipse.png';
+import cloudLogo from './assets/tech_logo/cloud.png';
+import awsLogo from './assets/tech_logo/aws.png';
+import computerNetworksLogo from './assets/tech_logo/network.png';
+import linuxLogo from './assets/tech_logo/linux.png';
 
 // Achivements Section Logo's
 import prize from './assets/achivement/prize_first.png';
@@ -70,23 +73,32 @@ export const SkillsInfo = [
   {
     title: 'Languages',
     skills: [
-
       { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
       { name: 'JavaScript', logo: javascriptLogo },
     ],
+
   },
   {
     title: 'Tools',
     skills: [
-      { name: 'Git', logo: gitLogo },
-      { name: 'GitHub', logo: githubLogo },
+      { name: 'Git/GitHub', logo: gitLogo },
+      { name: 'Linux', logo: linuxLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
       { name: 'Compass', logo: mcLogo },
       { name: 'IntelliJ', logo: IntelliJ },
       { name: 'Eclipse ', logo: Eclipse },
     ],
+  },
+  {
+    title: 'Cloud & Others',
+    skills: [
+      { name: 'Cloud Computing', logo: cloudLogo },
+      { name: 'AWS', logo: awsLogo },
+      { name: 'Computer Networks', logo: computerNetworksLogo },
+    ],
+
   },
 ];
 

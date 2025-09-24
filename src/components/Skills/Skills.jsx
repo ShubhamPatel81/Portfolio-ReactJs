@@ -23,7 +23,7 @@ const Skills = () => (
       {SkillsInfo.map((category) => (
         <div
           key={category.title}
-          className="bg-gray-900 backdrop-blur-md px-9 sm:px-10 py-8 sm:py-6 mb-10 w-full sm:w-[48%] rounded-2xl border border-white 
+          className="bg-gray-800 backdrop-blur-md px-9 sm:px-10 py-8 sm:py-6 mb-10 w-full sm:w-[48%] rounded-2xl border border-white 
           shadow-[0_0_20px_1px_rgba(130,69,236,0.3)]"
         >
           <h3 className="text-sm sm:text-3xl font-semibold text-gray-500 mb-4 text-center">
@@ -33,8 +33,8 @@ const Skills = () => (
           {/* Skill Items - 3 per row on larger screens */}
           <Tilt
             key={category.title}
-            tiltMaxAngleX={8}
-            tiltMaxAngleY={8}
+            tiltMaxAngleX={3}
+            tiltMaxAngleY={3}
             perspective={100}
             scale={1}
             transitionSpeed={1000}
