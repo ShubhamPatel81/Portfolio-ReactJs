@@ -7,7 +7,7 @@ import {
   FaYoutube,
   FaGithub,
 } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+import { SiLeetcode, SiLinktree } from "react-icons/si";
 
 const Footer = () => {
   // Smooth scroll function
@@ -46,10 +46,7 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-            {
-              icon: <FaFacebook />,
-              link: "https://www.facebook.com/Shubham.Patel.3511041/",
-            },
+            
             {
               icon: <FaTwitter />,
               link: "https://x.com/Shubham07132581",
@@ -67,7 +64,7 @@ const Footer = () => {
               link: "https://leetcode.com/u/Shubham-Patel/",
             },
             {
-              icon: <SiLeetcode />,
+              icon: <SiLinktree  />,
               link: "https://linktr.ee/Shubham_Patel81?utm_source=linktre",
             },
           ].map((item, index) => (
