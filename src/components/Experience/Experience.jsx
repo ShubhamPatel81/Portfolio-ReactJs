@@ -10,7 +10,7 @@ const achivement = () => {
       {/* Section Title */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">
-          Achievements & <span className="text-green-600">& Certifications</span>
+          Achievements &<span className="text-green-600">Certifications</span>
         </h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
