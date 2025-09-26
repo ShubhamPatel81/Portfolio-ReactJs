@@ -29,8 +29,8 @@ const Footer = () => {
           {[
             { name: "About", id: "about" },
             { name: "Skills", id: "skills" },
-            { name: "Experience", id: "experience" },
-            { name: "Projects", id: "projects" },
+            { name: "Achivement", id: "achivement" },
+            { name: "Projects", id: "work" },
             { name: "Education", id: "education" },
           ].map((item, index) => (
             <button
@@ -46,7 +46,6 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-            
             {
               icon: <FaTwitter />,
               link: "https://x.com/Shubham07132581",
@@ -64,7 +63,7 @@ const Footer = () => {
               link: "https://leetcode.com/u/Shubham-Patel/",
             },
             {
-              icon: <SiLinktree  />,
+              icon: <SiLinktree />,
               link: "https://linktr.ee/Shubham_Patel81?utm_source=linktre",
             },
           ].map((item, index) => (
